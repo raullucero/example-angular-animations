@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>animations</title>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.min.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="bower_components/angular-ui-router-anim-in-out/anim-in-out.js"></script>
+    <script src="app.js"></script>
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="bower_components/angular-ui-router-anim-in-out/css/anim-in-out.css">
+
+  </head>
+  <body ng-app="myApp">
+
+    <nav>
+      <a href="#" ui-sref="page1">Page 1</a>
+      <a href="#" ui-sref="page2">Page 2</a>
+      <a href="#" ui-sref="page3">Page 3</a>
+    </nav>
+
+    <div ui-view class="main"></div>
+  </body>
+</html>
